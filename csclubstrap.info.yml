@@ -1,0 +1,30 @@
+core: 8.x
+type: theme
+base theme: bootstrap
+
+name: 'csclubstrap'
+description: 'Custom theme built on top of bootstrap (Use less to compile).'
+package: 'Bootstrap'
+
+regions:
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  header: 'Top Bar'
+  frontimage: 'Front Image'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  ftc: 'Front 3 Columns'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  follow_social: 'Follow Social Icons'
+  footer: 'Footer'
+  copyright: 'Copyright'
+  footermenu1: 'Footer Menu Left'
+  footermenu2: 'Footer Menu Right'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+libraries:
+  - 'csclubstrap/global-styling'
+  - 'csclubstrap/bootstrap-scripts'
