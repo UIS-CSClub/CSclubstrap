@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - clubstrapblocks
+    - system
+  theme:
+    - csclubstrap
+id: frontimageblock
+theme: csclubstrap
+region: frontimage
+weight: 0
+provider: null
+plugin: frontimage_block
+settings:
+  id: frontimage_block
+  label: 'Front Image Block'
+  provider: clubstrapblocks
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

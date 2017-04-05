@@ -1,0 +1,41 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+    - twitter_block
+  theme:
+    - csclubstrap
+id: twitterblock
+theme: csclubstrap
+region: sidebar_second
+weight: -9
+provider: null
+plugin: twitter_block
+settings:
+  id: twitter_block
+  label: 'Twitter block'
+  provider: twitter_block
+  label_display: '0'
+  username: uisedu
+  theme: dark
+  link_color: ''
+  width: ''
+  height: ''
+  chrome:
+    noborders: noborders
+    transparent: transparent
+    noheader: '0'
+    nofooter: '0'
+    noscrollbar: '0'
+  border_color: ''
+  language: ''
+  tweet_limit: '3'
+  related: ''
+  polite: polite
+visibility:
+  request_path:
+    id: request_path
+    pages: '/user/*'
+    negate: true
+    context_mapping: {  }

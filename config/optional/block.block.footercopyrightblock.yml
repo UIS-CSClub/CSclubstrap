@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - clubstrapblocks
+  theme:
+    - csclubstrap
+id: footercopyrightblock
+theme: csclubstrap
+region: copyright
+weight: -8
+provider: null
+plugin: footercopyright_block
+settings:
+  id: footercopyright_block
+  label: 'Footer Copyright Block'
+  provider: clubstrapblocks
+  label_display: '0'
+visibility: {  }

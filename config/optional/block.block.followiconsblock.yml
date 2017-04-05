@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - clubstrapblocks
+    - system
+  theme:
+    - csclubstrap
+id: followiconsblock
+theme: csclubstrap
+region: follow_social
+weight: 0
+provider: null
+plugin: followicons_block
+settings:
+  id: followicons_block
+  label: 'Follow Icons Block'
+  provider: clubstrapblocks
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '/user/*'
+    negate: true
+    context_mapping: {  }
