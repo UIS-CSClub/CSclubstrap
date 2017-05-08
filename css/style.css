@@ -1327,7 +1327,7 @@ mark,
   text-transform: capitalize;
 }
 .text-muted {
-  color: #777777;
+  color: #555555;
 }
 .text-primary {
   color: #5c9efe;
@@ -2245,7 +2245,7 @@ table {
 caption {
   padding-top: 8px;
   padding-bottom: 8px;
-  color: #777777;
+  color: #555555;
   text-align: left;
 }
 th {
@@ -7375,6 +7375,12 @@ p:last-child,
   background-color: #323232;
   border-color: #323232;
   color: #fdfdfd;
+}
+.dropdown-menu > li > a {
+  color: #9d9d9d;
+}
+.dropdown-menu > li > a:hover {
+  color: #dcdcdc;
 }
 .font-awesome-round-bg-blue {
   color: #2196f3;
