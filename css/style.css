@@ -1327,7 +1327,7 @@ mark,
   text-transform: capitalize;
 }
 .text-muted {
-  color: #555555;
+  color: #9e9c9c;
 }
 .text-primary {
   color: #5c9efe;
@@ -2245,7 +2245,7 @@ table {
 caption {
   padding-top: 8px;
   padding-bottom: 8px;
-  color: #555555;
+  color: #9e9c9c;
   text-align: left;
 }
 th {
@@ -7426,11 +7426,21 @@ p:last-child,
   border-left: 10px solid #222222;
   margin: 1.5em 10px;
   padding: 0px 10px 5px 10px;
+  overflow: auto;
 }
 .recent-item .views-field-field-image {
   float: left;
   margin-top: 3px;
   margin-right: 10px;
+}
+.recent-item .views-field-field-video-link {
+  width: 50%;
+  float: left;
+  margin-top: 3px;
+  margin-right: 10px;
+}
+.videos-list {
+  height: 230px;
 }
 .article-image-wrapper {
   padding-bottom: 10px;
