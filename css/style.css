@@ -7401,6 +7401,11 @@ p:last-child,
   border-bottom: 2px dashed #5c9efe;
   text-decoration: none;
 }
+.border-bottom-dotted:hover,
+.border-bottom-dotted:focus {
+  border-bottom: 2px dashed #5c9efe;
+  text-decoration: none;
+}
 .border-top {
   padding-top: 15px;
   margin-top: 15px;
@@ -7414,7 +7419,12 @@ p:last-child,
 .recent-item {
   border-left: 10px solid #222222;
   margin: 1.5em 10px;
-  padding: 0.5em 10px;
+  padding: 0px 10px 5px 10px;
+}
+.recent-item .views-field-field-image {
+  float: left;
+  margin-top: 3px;
+  margin-right: 10px;
 }
 .article-image-wrapper {
   padding-bottom: 10px;
@@ -7457,6 +7467,12 @@ p:last-child,
 }
 .display-inline {
   display: inline-block;
+}
+.content .field--name-body {
+  margin-top: 5px;
+}
+.content .field--name-field-image {
+  float: right;
 }
 /* Footer */
 .footer {

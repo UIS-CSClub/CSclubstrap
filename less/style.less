@@ -43,6 +43,11 @@
   text-decoration: none;
 }
 
+.border-bottom-dotted:hover, .border-bottom-dotted:focus {
+  border-bottom: 2px dashed @brand-primary;
+  text-decoration: none;
+}
+
 .border-top {
   padding-top: 15px;
   margin-top: 15px;
@@ -58,7 +63,13 @@
 .recent-item {
   border-left: 10px solid @dark-bg;
   margin: 1.5em 10px;
-  padding: 0.5em 10px;
+  padding: 0px 10px 5px 10px;
+
+  .views-field-field-image {
+    float: left;
+    margin-top: 3px;
+    margin-right: 10px;
+  }
 }
 
 .article-image-wrapper {
@@ -107,6 +118,16 @@
 
 .display-inline {
   display: inline-block;
+}
+
+.content {
+  .field--name-body {
+    margin-top: 5px;
+  }
+
+  .field--name-field-image {
+    float: right;
+  }
 }
 
 /* Footer */
