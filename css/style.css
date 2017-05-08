@@ -7428,6 +7428,9 @@ p:last-child,
   padding: 0px 10px 5px 10px;
   overflow: auto;
 }
+.recent-item .views-field-title h3 {
+  margin-top: 0px;
+}
 .recent-item .views-field-field-image {
   float: left;
   margin-top: 3px;
