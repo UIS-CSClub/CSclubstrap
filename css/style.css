@@ -7505,6 +7505,7 @@ p:last-child,
   width: auto;
   border-radius: 3px;
   padding: 5px;
+  margin-right: 5px;
   border: 1px solid #222222;
   background: #222222;
   float: left;
