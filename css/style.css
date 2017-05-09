@@ -7493,6 +7493,9 @@ p:last-child,
 .content .field--name-field-image {
   float: right;
 }
+.margin-bottom {
+  margin-bottom: 5px;
+}
 /* Footer */
 .footer {
   border-top: 1px solid #222222;
