@@ -7494,7 +7494,12 @@ p:last-child,
   float: right;
 }
 .margin-bottom {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+.margin-top {
+  margin-top: 10px;
+  padding-top: 5px;
 }
 /* Footer */
 .footer {
