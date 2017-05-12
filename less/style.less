@@ -39,6 +39,13 @@
   background-color: @gray-darker;
 }
 
+header .container-fluid {
+  background-color: @brand-primary;
+}
+.region-frontimage img {
+  box-shadow: 0px 20px 0px #000;
+}
+
 .border-bottom {
   padding-bottom: 15px;
   margin-bottom: 15px;
@@ -98,7 +105,7 @@
   height: 230px;
 }
 
-.article-image-wrapper {
+.image-wrapper {
   padding-bottom: 10px;
 }
 
@@ -171,9 +178,21 @@
   border-radius: 3px;
   padding: 5px;
   margin-right: 5px;
+  margin-bottom: 5px;
   border: 1px solid @dark-bg;
   background: @dark-bg;
   float: left;
+}
+
+/* Forms */
+.views-exposed-form {
+  .control-label {
+    margin-right: 5px;
+  }
+
+  button {
+    margin-left: 5px;
+  }
 }
 
 /* Footer */
