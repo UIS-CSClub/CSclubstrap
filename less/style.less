@@ -8,6 +8,8 @@
 = Custom CSS =
 ===============================================>>>>>*/
 
+
+/*----------- header-navbar -----------*/
 header.navbar {
   border-top: 5px solid @brand-primary;
 }
@@ -26,51 +28,13 @@ header.navbar {
   color: @navbar-inverse-link-hover-color;
 }
 
-.font-awesome-round-bg-blue {
-  color: @fa-bg-blue;
-}
-.font-awesome-round-bg-green {
-  color: @fa-bg-green;
-}
-.font-awesome-round-bg-orange {
-  color: @fa-bg-orange;
-}
-.font-awesome-round-bg-pink {
-  color: @fa-bg-pink;
-}
-
-.gray-bg {
-  background-color: @gray-darker;
-}
-
+/*----------- content related -----------*/
 header .container-fluid {
   background-color: @brand-primary;
 }
+
 .region-frontimage img {
   box-shadow: 0px 20px 0px #000;
-}
-
-.border-bottom {
-  padding-bottom: 15px;
-  margin-bottom: 15px;
-  border-bottom: 1px solid @dark-bg;
-}
-
-.border-bottom-dotted {
-  display: inline-block;
-  border-bottom: 2px dashed @brand-primary;
-  text-decoration: none;
-}
-
-.border-bottom-dotted:hover, .border-bottom-dotted:focus {
-  border-bottom: 2px dashed @brand-primary;
-  text-decoration: none;
-}
-
-.border-top {
-  padding-top: 15px;
-  margin-top: 15px;
-  border-top: 1px solid @dark-bg;
 }
 
 .page-header {
@@ -108,6 +72,78 @@ header .container-fluid {
 
 .videos-list {
   height: 230px;
+}
+
+.content {
+  .field--name-body {
+    margin-top: 5px;
+  }
+
+  .field--name-field-image {
+    float: right;
+  }
+}
+
+/*----------- Forms-----------*/
+.views-exposed-form {
+  .control-label {
+    margin-right: 5px;
+  }
+
+  button {
+    margin-left: 5px;
+  }
+}
+
+/*----------- Footer -----------*/
+.footer {
+    border-top: 1px solid @dark-bg;
+}
+
+.footer .nav > li > a {
+  padding: 1px;
+}
+
+.footer .nav > li > a:hover {
+  background-color: @body-bg;
+}
+
+/*----------- Utility classes -----------*/
+.font-awesome-round-bg-blue {
+  color: @fa-bg-blue;
+}
+.font-awesome-round-bg-green {
+  color: @fa-bg-green;
+}
+.font-awesome-round-bg-orange {
+  color: @fa-bg-orange;
+}
+.font-awesome-round-bg-pink {
+  color: @fa-bg-pink;
+}
+
+.gray-bg {
+  background-color: @gray-darker;
+}
+
+.border-bottom {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid @dark-bg;
+}
+.border-bottom-dotted {
+  display: inline-block;
+  border-bottom: 2px dashed @brand-primary;
+  text-decoration: none;
+}
+.border-bottom-dotted:hover, .border-bottom-dotted:focus {
+  border-bottom: 2px dashed @brand-primary;
+  text-decoration: none;
+}
+.border-top {
+  padding-top: 15px;
+  margin-top: 15px;
+  border-top: 1px solid @dark-bg;
 }
 
 .image-wrapper {
@@ -148,7 +184,7 @@ header .container-fluid {
   color: @rss;
 }
 
-.posted-on {
+.italics-small {
   font-size: @font-size-small;
   font-style: italic;
   color: @gray-lighter;
@@ -156,16 +192,6 @@ header .container-fluid {
 
 .display-inline {
   display: inline-block;
-}
-
-.content {
-  .field--name-body {
-    margin-top: 5px;
-  }
-
-  .field--name-field-image {
-    float: right;
-  }
 }
 
 .margin-bottom {
@@ -178,6 +204,14 @@ header .container-fluid {
   padding-top: 5px;
 }
 
+.margin-right {
+  margin-right: 10px;
+}
+
+.margin-left {
+  margin-left: 10px;
+}
+
 .bubble-wrap {
   width: auto;
   border-radius: 3px;
@@ -187,28 +221,4 @@ header .container-fluid {
   border: 1px solid @dark-bg;
   background: @dark-bg;
   float: left;
-}
-
-/* Forms */
-.views-exposed-form {
-  .control-label {
-    margin-right: 5px;
-  }
-
-  button {
-    margin-left: 5px;
-  }
-}
-
-/* Footer */
-.footer {
-    border-top: 1px solid @dark-bg;
-}
-
-.footer .nav > li > a {
-  padding: 1px;
-}
-
-.footer .nav > li > a:hover {
-  background-color: @body-bg;
 }
