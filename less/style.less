@@ -95,6 +95,19 @@ header .container-fluid {
   }
 }
 
+.ui-widget-content {
+  .ui-menu-item {
+    a {
+      color: @text-color;
+    }
+    &.ui-state-active, &.ui-state-focus {
+      a {
+        color: @gray-darker;
+      }
+    }
+  }
+}
+
 /*----------- Footer -----------*/
 .footer {
     border-top: 1px solid @dark-bg;
