@@ -8,7 +8,6 @@ A drupal 8 bootstrap based theme for the computer science club.
 - Download the latest [bootstrap less source code](http://getbootstrap.com/getting-started/)
 - In your drupal installation, `cd` into themes directory.
 - Then, `git clone git@github.com:UIS-CSClub/csclubstrap.git`
-- Also download and extract the [base theme](https://www.drupal.org/project/bootstrap) into themes directory.
 - Extract bootstrap-x.x folder (downloaded in step 3) into the root of this theme and rename it to "bootstrap".
 - Before enabling the theme, you need to get few modules.
 - You need to `cd` into modules directory of your drupal installation, then `git clone git@github.com:UIS-CSClub/custom-modules.git custom`. It will clone all the modules present in the custom-modules repository into the custom folder.
