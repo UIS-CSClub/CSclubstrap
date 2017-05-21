@@ -196,32 +196,34 @@
 
 {% if page.footer %}
   {% block footer %}
-    <footer class="footer {{ container }}" role="contentinfo">
-      <div class="col-md-12">
-        <div class="col-md-4">
-          {# Copyright #}
-          {% if page.copyright %}
-            {% block copyright %}
-              {{ page.copyright }}
-            {% endblock %}
-          {% endif %}
-        </div>
-        <div class="col-md-8">
+    <footer class="footer container-fluid" role="contentinfo">
+      <div class="row">
+        <div class="col-md-12">
           <div class="col-md-4">
-          {# Footer Menu 1 #}
-          {% if page.footermenu1 %}
-            {% block footermenu1 %}
-              {{ page.footermenu1 }}
-            {% endblock %}
-          {% endif %}
+            {# Copyright #}
+            {% if page.copyright %}
+              {% block copyright %}
+                {{ page.copyright }}
+              {% endblock %}
+            {% endif %}
           </div>
-          <div class="col-md-4">
-          {# Footer Menu 2 #}
-          {% if page.footermenu2 %}
-            {% block footermenu2 %}
-              {{ page.footermenu2 }}
-            {% endblock %}
-          {% endif %}
+          <div class="col-md-8">
+            <div class="col-md-4">
+            {# Footer Menu 1 #}
+            {% if page.footermenu1 %}
+              {% block footermenu1 %}
+                {{ page.footermenu1 }}
+              {% endblock %}
+            {% endif %}
+            </div>
+            <div class="col-md-4">
+            {# Footer Menu 2 #}
+            {% if page.footermenu2 %}
+              {% block footermenu2 %}
+                {{ page.footermenu2 }}
+              {% endblock %}
+            {% endif %}
+            </div>
           </div>
         </div>
       </div>

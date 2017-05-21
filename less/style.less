@@ -50,7 +50,7 @@ header .container-fluid {
 
   .views-field {
     .fa {
-      margin-right: 5px;  
+      margin-right: 5px;
     }
   }
 
@@ -121,7 +121,8 @@ header .container-fluid {
 
 /*----------- Footer -----------*/
 .footer {
-    border-top: 1px solid @dark-bg;
+    border-top: 2px solid darken(@dark-bg, 1%);
+    background-color: @dark-bg;
 }
 
 .footer .nav > li > a {
@@ -178,6 +179,28 @@ header .container-fluid {
   box-shadow: 4px 4px 2px @gray-darker;
   margin-bottom: 5px;
   width: 100%;
+}
+
+.responsive-container {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+
+  iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.responsive-container-16x9 {
+  padding-bottom: 56.25%;
+}
+
+.responsive-container-4x3 {
+  padding-bottom: 75%;
 }
 
 .follow-social-icon {
