@@ -3,6 +3,10 @@ global-styling:
     theme:
       css/style.css: {}
       'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css': { type: external }
+  js:
+    js/clubstrap.js: {}
+  dependencies:
+    - core/jquery
 
 bootstrap-scripts:
   js:
